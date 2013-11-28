@@ -1,0 +1,1 @@
+<?$url = urlencode($_GET['url']);$urli = rawurldecode($url);header('Location:'.$urli);?>

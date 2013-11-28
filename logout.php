@@ -1,0 +1,1 @@
+<?php error_reporting(0);session_start();session_destroy();setcookie ("uid", "", time() - 3600);header('Location:index.php');exit();?>

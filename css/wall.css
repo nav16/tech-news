@@ -1,0 +1,197 @@
+*
+{
+margin:0px;
+padding:0px;
+}
+body
+{
+font-family:Arial, Helvetica, sans-serif;
+font-family:12px;
+}
+h3,h4
+{
+padding:0px;
+margin:0px;
+}
+a
+{
+color:#8E0000;
+text-decoration:none;
+}
+#wall_container
+{
+text-align:left;
+background-color:#FFFFFF;
+padding:10px;
+width:600px;
+}
+#update
+{
+width:550px;font-size:12px;
+}
+#content
+{
+margin-top:10px;
+}
+textarea
+{
+border:solid 1px #333;
+}
+.clickOpen, .SlideOff{
+cursor:pointer;
+}
+
+textarea {
+	margin: 5px 0 !important;
+	padding: 7px 6px !important;
+	color: #6A6969 !important;
+	border-width: 1px !important;
+	border-style: solid !important;
+  	border-color: #D4D4D4 #EBEBEB #EBEBEB #D4D4D4 !important; 	
+	font: 11px 'Lucida Grande', Verdana, Helvetica, sans-serif !important;
+}
+#commentfrom textarea:focus {
+	color: #19465D !important;
+	background: #EEF8FB !important;
+}
+
+/* status body */
+
+.stbody
+{
+
+margin-bottom:10px;
+border-bottom:dashed 1px #dedede;
+overflow:auto;
+background:#FFE4B5;
+}
+.stimg
+{
+float:left;
+height:50px;
+width:50px;
+border:solid 1px #dedede;
+padding:3px;
+}
+.sttext
+{
+margin-left:70px;
+min-height:50px;
+word-wrap:break-word;
+overflow:hidden;
+padding:5px;
+display:block;
+font-size:12px;
+width:470px;
+}
+.sttext b
+{
+color:#006699;
+}
+
+.sttime
+{
+font-size:11px;
+color:#999;
+font-family:Arial, Helvetica, sans-serif;
+margin-top:5px;
+}
+.stdelete 
+{
+font-weight:bold;
+float:right;
+cursor:pointer;
+}
+#stexpandbox
+{
+margin-top:10px;
+}
+#stexpandbox img
+{
+border:solid 1px #dedede;
+padding:3px;
+}
+/* Comment */
+.stcommentbody
+{
+
+
+border-bottom:solid 1px #fff;
+background-color:#f2f2f2;
+padding:5px;
+width:400px;
+overflow:auto;
+}
+.stcommentimg
+{
+float:left;
+height:35px;
+width:35px;
+border:solid 1px #dedede;
+padding:2px;
+}
+.stcommenttext
+{
+z-index:1;
+margin-left:45px;
+min-height:40px;
+word-wrap:break-word;
+overflow:hidden;
+padding:3px;
+display:block;
+font-size:11px;
+width:350px;
+background:lightblue;
+}
+
+.stcommenttext b
+{
+color:#006699;
+}
+.stymsg, .stycomm{
+z-index:1;
+margin-top:5px;
+color: #333;
+font-size: 12px;
+min-height:15px;
+}
+.smly{
+
+}
+.stcommenttime
+{
+font-size:11px;
+color:#999;
+font-family:Arial, Helvetica, sans-serif;
+margin-top:5px;
+}
+.commentupdate
+{
+background-color: white;
+width:95%;
+padding:5px;
+}
+.comment
+{
+width:330px;
+height:35px;
+font-size:11px;
+}
+/* faceb image*/
+.small_face
+{
+width:35px;height:35px
+}
+.big_face
+{
+width:50px;height:50px
+}
+#flashmessage
+{
+height:15px;
+margin-top:-25px;
+margin-left:80px;
+font-size:11px;
+color:#333;
+
+}
